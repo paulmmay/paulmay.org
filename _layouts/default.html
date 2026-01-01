@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }} · {{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  </head>
+
+  <body>
+    {% include header.html %}
+
+    <main class="layout-grid">
+      <!-- Main content -->
+      <section class="col-8">
+        {{ content }}
+      </section>
+
+      <!-- Sidebar (optional include) -->
+      <aside class="col-4">
+        {% if page.sidebar %}
+          {% include {{ page.sidebar }}.html %}
+        {% endif %}
+      </aside>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>
