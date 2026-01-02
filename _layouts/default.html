@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>{{ page.title }} · {{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title }} · {{ site.title }}</title>
 
-    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   </head>
 
   <body>
@@ -13,16 +13,16 @@
 
     <main class="layout-grid">
       <!-- Main content -->
-      <section class="col-8">
+      <section class="col-8 container">
         {{ content }}
       </section>
 
-      <!-- Sidebar (optional include) -->
-      <aside class="col-4">
-        {% if page.sidebar %}
+      <!-- Optional sidebar -->
+      {% if page.sidebar %}
+        <aside class="col-4 container">
           {% include {{ page.sidebar }}.html %}
-        {% endif %}
-      </aside>
+        </aside>
+      {% endif %}
     </main>
 
     {% include footer.html %}

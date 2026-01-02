@@ -1,5 +1,5 @@
-title: My Jekyll Blog
-description: A minimal Jekyll blog with tags
+title: Paul May
+description: Test website
 url: ""
 baseurl: ""
 
@@ -9,6 +9,9 @@ permalink: /blog/:title/
 collections:
   posts:
     output: true
+
+exclude:
+  - .vscode/
 
 defaults:
   - scope:

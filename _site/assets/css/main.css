@@ -1,0 +1,160 @@
+/* -----------------------------
+   Color palette (variables)
+--------------------------------*/
+:root {
+  --color-background: #112945;
+  --color-text: #e7f4ff;
+  --color-link: #e7f4ff;
+  --color-link-hover: #005ea3;
+  --color-header-bg: #f8f8f8;
+  --color-footer-bg: #f2f2f2;
+  --color-tag-bg: #e0e0e0;
+  --color-tag-text: #333333;
+  --type-base: 20px;
+  --type-xs: calc(var(--type-base) / 2);   /* 15px */
+  --type-sm: calc(var(--type-base) * 0.75);/* 22.5px */
+  --type-md: var(--type-base);             /* 30px */
+  --type-lg: calc(var(--type-base) * 1.25);/* 37.5px */
+  --type-xl: calc(var(--type-base) * 1.5); /* 45px */
+  --type-2xl: calc(var(--type-base) * 2);  /* 60px */
+}
+
+/* -----------------------------
+   Base styles
+--------------------------------*/
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-size: var(--type-md);
+  font-weight:200;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+a {
+color: var(--color-link);
+  font-weight:400;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: var(--type-2xl);
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: var(--type-xl);
+}
+
+h3 {
+  font-size: var(--type-lg);
+}
+
+small {
+  font-size: var(--type-sm);
+}
+
+/* Central container for reading width */
+.container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem; /* small horizontal padding */
+}
+
+/* Header / nav links */
+header {
+  background-color: var(--color-header-bg);
+  padding: 1rem;
+}
+
+header nav a {
+  margin-right: 1rem;
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: var(--color-link-hover);
+}
+
+
+
+
+/* Tags styling */
+.tags a {
+  margin-right: 0.5rem;
+  font-size: 0.9em;
+  background-color: var(--color-tag-bg);
+  color: var(--color-tag-text);
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+/* -----------------------------
+   Grid layout
+--------------------------------*/
+.layout-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+/* Column spans */
+.col-1  { grid-column: span 1; }
+.col-2  { grid-column: span 2; }
+.col-3  { grid-column: span 3; }
+.col-4  { grid-column: span 4; }
+.col-6  { grid-column: span 6; }
+.col-8  { grid-column: span 8; }
+.col-9  { grid-column: span 9; }
+.col-12 { grid-column: span 12; }
+
+/* Full-width elements inside the grid */
+.grid-full {
+  grid-column: 1 / -1;
+  width: 100vw;
+  margin-left: calc(-40vw + 60%);
+  padding: 0 10rem; /* adds 1rem horizontal space on both sides */
+  box-sizing: border-box;
+}
+
+/* .grid-full img {
+  width: 100%;
+  height: auto;
+  display: block;
+} */
+
+/* Footer styling */
+footer {
+  background-color: var(--color-footer-bg);
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9em;
+  color: var(--color-text);
+}
+
+/* -----------------------------
+   Responsive adjustments
+--------------------------------*/
+@media (max-width: 768px) {
+  .layout-grid {
+    grid-template-columns: 1fr;
+  }
+
+  [class^="col-"] {
+    grid-column: span 1 !important;
+  }
+
+  .grid-full {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+}
