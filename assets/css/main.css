@@ -1,25 +1,33 @@
 /* -----------------------------
-   Color palette (variables)
+   Color palette + type scale
 --------------------------------*/
 :root {
-  --color-yellow:#ffdd00; /* f8de1e */
-  --color-yellow2:#ffc300; /* f8de1e */
+  --color-yellow: #ffdd00;
+  --color-yellow2: #ffc300;
+  --color-grey: #dcdcdc;
+
   --color-background: #efefef;
   --color-text: #111;
   --color-text-light: #646464;
+
   --color-link: #222;
   --color-link-hover: #005ea3;
+
   --color-header-bg: var(--color-yellow);
   --color-footer-bg: #111;
+
   --color-tag-bg: #e0e0e0;
-  --color-tag-text: #333333;
+  --color-tag-text: #333;
+
+  /* Type scale */
   --type-base: 16px;
-  --type-xs: calc(var(--type-base) / 2);    
+
+  --type-xs: calc(var(--type-base) / 2);
   --type-sm: calc(var(--type-base) * 0.75);
-  --type-md: var(--type-base);             
+  --type-md: var(--type-base);
   --type-lg: calc(var(--type-base) * 1);
-  --type-xl: calc(var(--type-base) * 2); 
-  --type-2xl: calc(var(--type-base) * 3); 
+  --type-xl: calc(var(--type-base) * 2);
+  --type-2xl: calc(var(--type-base) * 3);
 }
 
 /* -----------------------------
@@ -36,13 +44,13 @@ body {
   color: var(--color-text);
 }
 
+/* Base link reset (scoped styles below) */
 a {
-color: var(--color-link);
-  font-weight:600;
-  border-bottom: 2px solid var(--color-header-bg);
+  color: var(--color-link);
   text-decoration: none;
 }
 
+/* Typography */
 h1 {
   font-size: var(--type-2xl);
   line-height: 1.2;
@@ -53,11 +61,6 @@ h2 {
   font-weight: 600;
 }
 
-h2 a {
-color: var(--color-link);
-  border-bottom: 4px solid var(--color-header-bg);
-}
-
 h3 {
   font-size: var(--type-lg);
 }
@@ -66,19 +69,87 @@ small {
   font-size: var(--type-sm);
 }
 
-.light{
+.light {
   font-weight: 100;
-  color: var(--color-text-light)
+  color: var(--color-text-light);
 }
 
-/* Central container for reading width */
+/* -----------------------------
+   Content container
+--------------------------------*/
 .container {
   max-width: 700px;
   margin: 2rem auto;
-  padding: 0 1rem; /* small horizontal padding */
+  padding: 0 1rem;
 }
 
-/* Header / nav links */
+/* -----------------------------
+   Markdown link styling
+--------------------------------*/
+.container a {
+  font-weight: 600;
+  border-bottom: 2px solid var(--color-header-bg);
+}
+
+.container a:hover,
+.container a:focus {
+  color: var(--color-link-hover);
+  border-bottom-color: var(--color-link-hover);
+}
+
+/* Headings that contain links */
+h2 a {
+  border-bottom-width: 4px;
+}
+
+h2 a:hover,
+h2 a:focus {
+  border-bottom-color: var(--color-link-hover);
+}
+
+/* -----------------------------
+   Blockquote: quote + attribution
+--------------------------------*/
+.container blockquote {
+  grid-column: 2 / span 10;
+  background-color: var(--color-grey);
+  color: var(--color-text);
+
+  padding: 2.5rem;
+  margin: 3rem 0;
+
+  font-size: var(--type-xl);
+  line-height: 1.4;
+}
+
+/* Quote text */
+.container blockquote p {
+  margin: 0;
+}
+
+.container blockquote p::before {
+  content:"“"
+}
+
+.container blockquote p::after {
+  content:"”"
+}
+
+/* Attribution */
+.container blockquote cite {
+  display: block;
+  margin-top: 1.5rem;
+
+  font-size: var(--type-sm);
+  font-style: normal;
+  color: var(--color-text);
+}
+
+
+
+/* -----------------------------
+   Header / navigation
+--------------------------------*/
 header {
   background-color: var(--color-header-bg);
   min-height: 56px;
@@ -87,19 +158,24 @@ header {
 header nav a {
   margin-right: 1rem;
   color: var(--color-link);
-  text-decoration: none;
+  font-weight: 600;
+  border-bottom: none;
 }
 
 header nav a:hover {
   color: var(--color-link-hover);
 }
 
-/* List styling */
-ul li::marker{
-color:var(--color-yellow2)
+/* -----------------------------
+   Lists
+--------------------------------*/
+ul li::marker {
+  color: var(--color-yellow2);
 }
 
-/* Tags styling */
+/* -----------------------------
+   Tags
+--------------------------------*/
 .tags a {
   margin-right: 0.5rem;
   font-size: 0.9em;
@@ -107,7 +183,8 @@ color:var(--color-yellow2)
   color: var(--color-tag-text);
   padding: 0.2rem 0.5rem;
   border-radius: 3px;
-  text-decoration: none;
+  border-bottom: none;
+  font-weight: 500;
 }
 
 /* -----------------------------
@@ -129,29 +206,31 @@ color:var(--color-yellow2)
 .col-9  { grid-column: span 9; }
 .col-12 { grid-column: span 12; }
 
-/* Full-width elements inside the grid */
+/* -----------------------------
+   Full-width elements
+--------------------------------*/
 .grid-full {
   grid-column: 1 / -1;
   width: 100vw;
   margin-left: calc(-40vw + 60%);
-  padding: 0 10rem; /* adds 1rem horizontal space on both sides */
+  padding: 0 10rem;
   box-sizing: border-box;
 }
 
-/* .grid-full img {
-  width: 100%;
-  height: auto;
-  display: block;
-} */
+/* Neutralise markdown link styling in full-width sections */
+.grid-full a {
+  border-bottom: none;
+}
 
-/* Footer styling */
+/* -----------------------------
+   Footer
+--------------------------------*/
 footer {
   background-color: var(--color-footer-bg);
-  /* padding: 1rem; */
+  min-height: 224px;
   text-align: center;
   font-size: 0.9em;
   color: var(--color-text);
-  min-height: 224px;
 }
 
 /* -----------------------------
@@ -169,6 +248,7 @@ footer {
   .grid-full {
     width: 100%;
     margin-left: 0;
+    padding: 0 1rem;
   }
 
   .container {
