@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Paul
-sidebar: sidebar
 ---
 ## Paul May is a strategic designer and product innovator. He is VP of Design at the software supply chain company [Cloudsmith](https://cloudsmith.com).
 
@@ -18,7 +17,7 @@ Paul helps companies pull the future forward; identifying and acting upon opport
 * Establish and communicate an ambitious product vision
 * Build cross-disciplinary product development teams
 * Implement a design-led approach to product development
-* Ship functional, delightful, branded digital products
+* Ship useful, delightful, branded digital products
 
 This design-led approach lets companies break out of short-term thinking and cycles of incremental improvement. Working in this way delivers more value to customers in shorter timeframes, and sets a new benchmark for quality in product categories.
 
