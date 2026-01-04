@@ -1,17 +1,31 @@
 ---
 layout: default
 title: Paul
+sidebar: sidebar
 ---
-Hello, my name is Paul May. I'm VP of Design at the software supply chain company [Cloudsmith](https://cloudsmith.com).
+## Paul May is a strategic designer and product innovator. He is VP of Design at the software supply chain company [Cloudsmith](https://cloudsmith.com).
 
-<h2>About Me</h2>
+Cloudsmith is a B2B SaaS company, serving the needs of platform engineering and information security teams. At Cloudsmith Paul's role spans all facets of design; including new product and feature discovery, concept development, UX prototyping, product design, and brand design.
 
-I've worked with [Frog Design](https://frogdesign.com) and [Monokoto](https://monokoto.com) for clients including Apple, Beats, Coloplast, Comcast, Denon, Ferrosan Medical Devices, Fritz Hansen, Marantz, Nordic Capical, GN Hearing, the UK Government, Virgin Atlantic. 
+### Approach & Experience
 
-I spent a little while at the [Royal College of Art](https://www.rca.ac.uk) in London, helping students with interaction design and electronics projects. I learned as much from them as they did from me.
+Paul helps companies pull the future forward; identifying and acting upon opportunities that sit beyond near-term product roadmaps. He does this by helping companies: 
 
-At [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org) I worked on their implementation of IBM Watson, and co-founded a cross-disciplinary data science + product development team, 
+* Re-connect with customers' jobs to be done
+* Understand relevant market forces
+* Explore new technologies via prototyping
+* Separate true opportunities from mere ideas
+* Re-establish and communicate an ambitious product vision
+* Build cross-disciplinary product development teams
+* Design and ship functional, delightful, branded digital products
+* Establish repeatable workflows
 
-I studied at [DCU](https://www.dcu.ie) in Dublin, and attended NYU as a Fulbright Scholar.
+This approach lets companies break out of short-term thinking and cycles of incremental improvement. Working in this way delivers more value to customers in shorter timeframes, abd sets a new benchmark for quality in product categories.
 
-You can contact me at [hello@paulmay.org](mailto:hello@paulmay.org)
+Paul has worked with [Frog Design](https://frogdesign.com) and [Monokoto](https://monokoto.com) for clients including Apple, Beats, Coloplast, Comcast, Denon, Ferrosan Medical Devices, Fritz Hansen, Marantz, Nordic Capical, GN Hearing, the UK Government, Virgin Atlantic.
+
+At [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org) he worked on their early experiments with IBM Watson, then co-founded a cross-disciplinary machine learning & product development team. 
+
+He studied at [DCU](https://www.dcu.ie) in Dublin, and attended [NYU's Interactive Telecommunications Program](https://itp.nyu.edu/) as a [Fulbright Scholar](https://fulbright.ie). He also worked at the [Royal College of Art](https://www.rca.ac.uk) in London, helping graduate students realise interaction design projects.
+
+Paul's [professional profile is here](https://www.linkedin.com/in/paulmay/), and you can contact him directly at [hello@paulmay.org](mailto:hello@paulmay.org).
