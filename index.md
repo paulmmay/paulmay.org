@@ -6,7 +6,7 @@ title: Paul
 
 Cloudsmith is a B2B SaaS company, serving the needs of platform engineering and information security teams. At Cloudsmith Paul's role spans all facets of design; including new product and feature discovery, concept development, UX prototyping, product design, and brand design.
 
-### Approach & Experience
+### Approach
 
 Paul helps companies pull the future forward; identifying and acting upon opportunities that sit beyond near-term product roadmaps. He does this by helping companies: 
 
@@ -15,11 +15,13 @@ Paul helps companies pull the future forward; identifying and acting upon opport
 * Explore new technologies via prototyping
 * Separate true opportunities from mere ideas
 * Establish and communicate an ambitious product vision
-* Build cross-disciplinary product development teams
+* Build and operate high-performing, cross-disciplinary product teams
 * Implement a design-led approach to product development
 * Ship useful, delightful, branded digital products
 
 This design-led approach lets companies break out of short-term thinking and cycles of incremental improvement. Working in this way delivers more value to customers in shorter timeframes, and sets a new benchmark for quality in product categories.
+
+### Experience
 
 Paul has worked with [Frog Design](https://frogdesign.com) and [Monokoto](https://monokoto.com) for clients including Apple, Beats, Coloplast, Comcast, Denon, Ferrosan Medical Devices, Fritz Hansen, Marantz, Nordic Capital, GN Hearing, the UK Government, Virgin Atlantic.
 
