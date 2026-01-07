@@ -4,7 +4,7 @@ title: Paul
 ---
 ## Paul May is a strategic designer and product innovator. He is VP of Design at the software supply chain company [Cloudsmith](https://cloudsmith.com).
 
-Cloudsmith is a B2B SaaS company, serving the needs of platform engineering and information security teams. At Cloudsmith Paul's role spans all facets of design; including new product and feature discovery, concept development, UX prototyping, product design, and brand design.
+Cloudsmith is a B2B SaaS company, serving the needs of platform engineering and information security teams. At Cloudsmith Paul's role spans all facets of design including discovery, product definition, feature definition, UX prototyping, product design, and brand design.
 
 ### Approach
 
