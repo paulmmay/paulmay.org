@@ -19,7 +19,7 @@ Paul helps companies pull the future forward; identifying and acting upon opport
 * Implement a design-led approach to product development
 * Ship useful, delightful, branded digital products
 
-This design-led approach lets companies break out of short-term thinking and cycles of incremental improvement. Working in this way delivers more value to customers in shorter timeframes, and sets a new benchmark for quality in product categories.
+This design-led approach lets companies break out of short-term thinking. It delivers more value to customers in shorter timeframes, and sets a new benchmark for quality in product categories.
 
 ### Experience
 
