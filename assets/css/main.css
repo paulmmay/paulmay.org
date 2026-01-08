@@ -59,6 +59,7 @@ h1 {
 h2 {
   font-size: var(--type-xl);
   font-weight: 600;
+  line-height: 1.2;
 }
 
 h3 {
