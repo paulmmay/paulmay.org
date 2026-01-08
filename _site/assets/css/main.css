@@ -6,7 +6,7 @@
   --color-yellow2: #ffc300;
   --color-grey: #dcdcdc;
 
-  --color-background: #efefef;
+  --color-background: #fefefe;
   --color-text: #111;
   --color-text-light: #646464;
 
@@ -26,7 +26,7 @@
   --type-sm: calc(var(--type-base) * 0.75);
   --type-md: var(--type-base);
   --type-lg: calc(var(--type-base) * 1);
-  --type-xl: calc(var(--type-base) * 2);
+  --type-xl: calc(var(--type-base) * 1.8);
   --type-2xl: calc(var(--type-base) * 3);
 }
 
@@ -237,6 +237,7 @@ footer {
    Responsive adjustments
 --------------------------------*/
 @media (max-width: 768px) {
+
   .layout-grid {
     grid-template-columns: 1fr;
   }
@@ -253,6 +254,6 @@ footer {
 
   .container {
     max-width: 100%;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
   }
 }
