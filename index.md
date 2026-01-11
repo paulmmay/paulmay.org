@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Paul
+title: About
 ---
-## Paul May is a strategic designer and product innovator. He is VP of Design at the software supply chain company [Cloudsmith](https://cloudsmith.com).
+## Paul May is a strategic designer and product innovator. He is VP of Design at the software company [Cloudsmith](https://cloudsmith.com).
 
 Cloudsmith is a B2B SaaS company, serving the needs of platform engineering and information security teams. At Cloudsmith Paul's role spans all facets of design including discovery, product definition, feature definition, UX prototyping, product design, and brand design.
 
@@ -19,11 +19,11 @@ Paul helps companies pull the future forward; identifying and acting upon opport
 * Implement a design-led approach to product development
 * Ship useful, delightful, branded digital products
 
-This design-led approach lets companies break out of short-term thinking. It delivers more value to customers in shorter timeframes, and sets a new benchmark for quality in product categories.
+This collaborative, design-led approach lets companies break out of short-term thinking. It delivers more value to customers in shorter timeframes, and sets a new benchmark for quality in product categories.
 
 ### Experience
 
-Paul has worked with [Frog Design](https://frogdesign.com) and [Monokoto](https://monokoto.com) for clients including Apple, Beats, Coloplast, Comcast, Denon, Ferrosan Medical Devices, Fritz Hansen, Marantz, Nordic Capital, GN Hearing, the UK Government, Virgin Atlantic.
+Prior to joining Cloudsmigh, Paul worked with agencies [Monokoto](https://monokoto.com) and  [Frog Design](https://frogdesign.com) for clients including Apple, Beats, Coloplast, Comcast, Denon, Ferrosan Medical Devices, Fritz Hansen, GN Hearing, Marantz, Nordic Capital, the UK Government, Virgin Atlantic.
 
 At [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org) he worked on their early experiments with IBM Watson, then co-founded a cross-disciplinary machine learning & product development team. 
 
