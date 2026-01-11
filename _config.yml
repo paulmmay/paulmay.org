@@ -1,10 +1,10 @@
 title: Paul May
-description: Test website
+description: Paul May is a strategic designer and product innovator. This is his personal website.
 url: ""
 baseurl: ""
 
 markdown: kramdown
-permalink: /blog/:title/
+# permalink: /blog/:title/
 
 collections:
   posts:
