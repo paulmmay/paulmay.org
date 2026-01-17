@@ -1,61 +1,72 @@
 ---
 layout: default
 ---
-<section class="col-8 container radar-index">
+
+<div>
 
   {% for post in paginator.posts %}
-    <article class="radar-card radar-card--index">
+    <article class="col-8 radar-entry">
 
-      <a href="{{ post.url | relative_url }}">
+      <!-- Radar reference card -->
+      <section class="radar-card radar-card--index">
+        <a href="{{ post.url | relative_url }}">
 
-        {% if post.radar.image %}
-          <div class="radar-card__image">
-            <img src="{{ post.radar.image }}" alt="">
+          {% if post.radar.image %}
+            <div class="radar-card__image">
+              <img src="{{ post.radar.image }}" alt="">
+            </div>
+          {% endif %}
+
+          <div class="radar-card__body">
+            {% if post.radar.source %}
+              <p class="radar-card__source">{{ post.radar.source }}</p>
+            {% endif %}
+
+            <h2 class="radar-card__title">{{ post.title }}</h2>
+
+            {% if post.radar.author %}
+              <p class="radar-card__author light">{{ post.radar.author }}</p>
+            {% endif %}
+
+            <p class="meta light">{{ post.date | date: "%B %d, %Y" }}</p>
           </div>
-        {% endif %}
 
-        <div class="radar-card__body">
+        </a>
+      </section>
 
-          <p class="radar-card__source light">
-            {{ post.radar.source }}
-          </p>
+      <!-- Commentary / your content -->
+      <section class="radar-commentary">
+        {{ post.content }}
+      </section>
 
-          <h2 class="radar-card__title">
-            {{ post.title }}
-          </h2>
-
-          <p class="meta light">
-            {{ post.date | date: "%B %d, %Y" }}
-          </p>
-
+      <!-- Tags -->
+      {% if post.tags %}
+        <div class="tags">
+          <span class="light">Tags:</span>
+          {% for tag in post.tags %}
+            <a href="{{ '/tags/#' | append: tag | relative_url }}">{{ tag }}</a>
+          {% endfor %}
         </div>
+      {% endif %}
 
-      </a>
     </article>
-    {{post.content}}
   {% endfor %}
 
-  <!-- Pagination -->
-  <nav class="pagination">
+</div>
 
+<!-- Pagination -->
+{% if paginator.total_pages > 1 %}
+  <nav class="pagination">
     {% if paginator.previous_page %}
-      <a class="pagination-prev"
-         href="{{ paginator.previous_page_path | relative_url }}">
-        Newer
-      </a>
+      <a class="prev" href="{{ paginator.previous_page_path | relative_url }}">&larr; Previous</a>
     {% endif %}
 
-    <span class="pagination-meta light">
+    <span class="page-numbers">
       Page {{ paginator.page }} of {{ paginator.total_pages }}
     </span>
 
     {% if paginator.next_page %}
-      <a class="pagination-next"
-         href="{{ paginator.next_page_path | relative_url }}">
-        Older
-      </a>
+      <a class="next" href="{{ paginator.next_page_path | relative_url }}">Next &rarr;</a>
     {% endif %}
-
   </nav>
-
-</section>
+{% endif %}

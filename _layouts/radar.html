@@ -4,10 +4,11 @@ layout: default
 
 <article class="col-8 container radar-entry">
 
+  <!-- Header -->
 
 
   <!-- Referenced item card -->
-  <section class="radar-card">
+  <div class="radar-card">
     <a href="{{ page.radar.url }}" target="_blank" rel="noopener noreferrer">
 
       {% if page.radar.image %}
@@ -17,32 +18,27 @@ layout: default
       {% endif %}
 
       <div class="radar-card__body">
-        <p class="radar-card__source">
-          {{ page.radar.source }}
-        </p>
+        <p class="radar-card__source">{{ page.radar.source }}</p>
 
-        <h2 class="radar-card__title">
-          {{ page.title }}
-        </h2>
+        <h2 class="radar-card__title">{{ page.title }}</h2>
 
         {% if page.radar.author %}
-          <p class="radar-card__author light">
-            {{ page.radar.author }}
-          </p>
+          <p class="radar-card__author light">{{ page.radar.author }}</p>
         {% endif %}
       </div>
 
     </a>
-  </section>
+  </div>
 
   <!-- Your commentary -->
-
+  <div class="radar-commentary">
     {{ content }}
+  </div>
 
-
+  <!-- Tags -->
   {% if page.tags %}
 
-      Tags:
+      <span class="light">Tags:</span>
       {% for tag in page.tags %}
         <a href="{{ '/tags/#' | append: tag | relative_url }}">{{ tag }}</a>
       {% endfor %}
