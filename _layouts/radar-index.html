@@ -1,0 +1,61 @@
+---
+layout: default
+---
+<section class="col-8 container radar-index">
+
+  {% for post in paginator.posts %}
+    <article class="radar-card radar-card--index">
+
+      <a href="{{ post.url | relative_url }}">
+
+        {% if post.radar.image %}
+          <div class="radar-card__image">
+            <img src="{{ post.radar.image }}" alt="">
+          </div>
+        {% endif %}
+
+        <div class="radar-card__body">
+
+          <p class="radar-card__source light">
+            {{ post.radar.source }}
+          </p>
+
+          <h2 class="radar-card__title">
+            {{ post.title }}
+          </h2>
+
+          <p class="meta light">
+            {{ post.date | date: "%B %d, %Y" }}
+          </p>
+
+        </div>
+
+      </a>
+
+    </article>
+  {% endfor %}
+
+  <!-- Pagination -->
+  <nav class="pagination">
+
+    {% if paginator.previous_page %}
+      <a class="pagination-prev"
+         href="{{ paginator.previous_page_path | relative_url }}">
+        Newer
+      </a>
+    {% endif %}
+
+    <span class="pagination-meta light">
+      Page {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+
+    {% if paginator.next_page %}
+      <a class="pagination-next"
+         href="{{ paginator.next_page_path | relative_url }}">
+        Older
+      </a>
+    {% endif %}
+
+  </nav>
+
+</section>

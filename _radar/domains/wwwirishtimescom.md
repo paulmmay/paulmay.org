@@ -1,0 +1,16 @@
+---
+title: "Domain: www.irishtimes.com"
+layout: default
+---
+
+# Domain: www.irishtimes.com
+
+- [Mary McAleese: Baptism is a key Catholic recruitment tool. It denies babies their human rights – The Irish Times](/radar/2026-01-11-mary-mcaleese-baptism-is-a-key-catholic-recruitment-tool-it-denies-babies-their-human-rights-the-irish-times.md)
+- [From the French Foreign Legion to learning to walk again: ‘I lived one life until I was 26, then life changed’ – The Irish Times](/radar/2026-01-11-from-the-french-foreign-legion-to-learning-to-walk-again-i-lived-one-life-until-i-was-26-then-life-changed-the-irish-times.md)
+- [Boy (7) strikes it lucky by finding one of the world’s rarest minerals near his home in Cork – The Irish Times](/radar/2026-01-11-boy-7-strikes-it-lucky-by-finding-one-of-the-worlds-rarest-minerals-near-his-home-in-cork-the-irish-times.md)
+- [Irish people have always demanded too much of RTÉ – and it usually delivered – The Irish Times](/radar/2026-01-09-irish-people-have-always-demanded-too-much-of-rté-and-it-usually-delivered-the-irish-times.md)
+- [Nike lost Steph Curry after a disastrous pitch. Now the NBA star is wearing their shoes again – The Irish Times](/radar/2026-01-08-nike-lost-steph-curry-after-a-disastrous-pitch-now-the-nba-star-is-wearing-their-shoes-again-the-irish-times.md)
+- [High Nelly’s review: Old-school cafe delivering warmth, comfort and a great breakfast – The Irish Times](/radar/2026-01-08-high-nellys-review-old-school-cafe-delivering-warmth-comfort-and-a-great-breakfast-the-irish-times.md)
+- [The Irish Times view on public transport funding: a failure of political imagination – The Irish Times](/radar/2026-01-07-the-irish-times-view-on-public-transport-funding-a-failure-of-political-imagination-the-irish-times.md)
+- [‘It’s the story that nobody will ever believe’: How le Carré’s The Night Manager returned to TV – The Irish Times](/radar/2026-01-07-its-the-story-that-nobody-will-ever-believe-how-le-carrés-the-night-manager-returned-to-tv-the-irish-times.md)
+- [Wider cycle lanes and road space for cars to be reduced under next stage of Dublin’s traffic plan – The Irish Times](/radar/2026-01-05-wider-cycle-lanes-and-road-space-for-cars-to-be-reduced-under-next-stage-of-dublins-traffic-plan-the-irish-times.md)

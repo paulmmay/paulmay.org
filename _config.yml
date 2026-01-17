@@ -1,17 +1,29 @@
-title: Paul May
-description: Paul May is a strategic designer and product innovator. This is his personal website.
+title: "Paul May"
+description: "Paul May is a strategic designer and product innovator. This is his personal website."
 url: ""
 baseurl: ""
 
+plugins:
+  - jekyll-paginate-v2
+  
 markdown: kramdown
-# permalink: /blog/:title/
 
 collections:
-  posts:
+  radar:
     output: true
+    permalink: /radar/:year/:month/:name/
+
+
+pagination:
+  enabled: true
+  collection: radar
+  per_page: 10
+  title: "Radar Page :num"
+  permalink: "/radar/page/:num/"
 
 exclude:
   - .vscode/
+  - scripts
 
 defaults:
   - scope:

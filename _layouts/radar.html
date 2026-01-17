@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<article class="col-8 container radar-entry">
+
+  <header>
+    <h1>{{ page.title }}</h1>
+    <p class="meta light">
+      {{ page.date | date: "%B %d, %Y" }}
+    </p>
+  </header>
+
+  <!-- Referenced item card -->
+  <section class="radar-card">
+    <a href="{{ page.radar.url }}" target="_blank" rel="noopener noreferrer">
+
+      {% if page.radar.image %}
+        <div class="radar-card__image">
+          <img src="{{ page.radar.image }}" alt="">
+        </div>
+      {% endif %}
+
+      <div class="radar-card__body">
+        <p class="radar-card__source">
+          {{ page.radar.source }}
+        </p>
+
+        <h2 class="radar-card__title">
+          {{ page.title }}
+        </h2>
+
+        {% if page.radar.author %}
+          <p class="radar-card__author light">
+            {{ page.radar.author }}
+          </p>
+        {% endif %}
+      </div>
+
+    </a>
+  </section>
+
+  <!-- Your commentary -->
+  <section class="radar-commentary">
+    {{ content }}
+  </section>
+
+  {% if page.tags %}
+    <footer class="tags">
+      <span class="light">Tags:</span>
+      {% for tag in page.tags %}
+        <a href="{{ '/tags/#' | append: tag | relative_url }}">{{ tag }}</a>
+      {% endfor %}
+    </footer>
+  {% endif %}
+
+</article>
