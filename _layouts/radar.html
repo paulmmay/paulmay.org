@@ -4,12 +4,7 @@ layout: default
 
 <article class="col-8 container radar-entry">
 
-  <header>
-    <h1>{{ page.title }}</h1>
-    <p class="meta light">
-      {{ page.date | date: "%B %d, %Y" }}
-    </p>
-  </header>
+
 
   <!-- Referenced item card -->
   <section class="radar-card">
@@ -41,17 +36,17 @@ layout: default
   </section>
 
   <!-- Your commentary -->
-  <section class="radar-commentary">
+
     {{ content }}
-  </section>
+
 
   {% if page.tags %}
-    <footer class="tags">
-      <span class="light">Tags:</span>
+
+      Tags:
       {% for tag in page.tags %}
         <a href="{{ '/tags/#' | append: tag | relative_url }}">{{ tag }}</a>
       {% endfor %}
-    </footer>
+
   {% endif %}
 
 </article>
