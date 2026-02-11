@@ -18,6 +18,8 @@ pagination:
   enabled: true
   collection: radar
   per_page: 10
+  sort_field: date
+  sort_reverse: true
   title: "Radar Page :num"
   permalink: "/radar/page/:num/"
 

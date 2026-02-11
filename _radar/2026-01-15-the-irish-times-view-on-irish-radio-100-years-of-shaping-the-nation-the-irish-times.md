@@ -1,6 +1,6 @@
 ---
 layout: radar
-title: "The Irish Times view on Irish radio: 100 years of shaping the nation – The Irish Times"
+title: "The Irish Times view on Irish radio: 100 years of shaping the nation"
 date: 2026-01-15
 
 radar:
@@ -9,7 +9,7 @@ radar:
   author: ""
   image:
 
-tags: []
+tags: [radio, media, ireland]
 ---
 
 <!-- Commentary -->

@@ -1,6 +1,6 @@
 ---
 layout: radar
-title: "Pebble founder says his new company is 'not a startup' | TechCrunch"
+title: "Pebble founder says his new company is 'not a startup'"
 date: 2026-01-15
 
 radar:
@@ -9,7 +9,7 @@ radar:
   author: ""
   image:
 
-tags: []
+tags: [hardware, consumer-electronics]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis elit velit. Nulla facilisi. Fusce dapibus efficitur congue. Nullam finibus dictum justo. Donec ornare enim finibus sapien dapibus scelerisque. Curabitur sapien ipsum, mattis eget sem sit amet, aliquam vulputate libero. Nullam lobortis urna a risus iaculis auctor.
