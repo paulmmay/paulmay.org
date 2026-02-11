@@ -23,7 +23,7 @@ This collaborative, design-led approach lets companies break out of short-term t
 
 ### Experience
 
-Prior to joining Cloudsmigh, Paul worked with agencies [Monokoto](https://monokoto.com) and  [Frog Design](https://frogdesign.com) for clients including Apple, Beats, Coloplast, Comcast, Denon, Ferrosan Medical Devices, Fritz Hansen, GN Hearing, Marantz, Nordic Capital, the UK Government, Virgin Atlantic.
+Prior to joining Cloudsmith, Paul worked with agencies [Monokoto](https://monokoto.com) and  [Frog Design](https://frogdesign.com) for clients including Apple, Beats, Coloplast, Comcast, Denon, Ferrosan Medical Devices, Fritz Hansen, GN Hearing, Marantz, Nordic Capital, the UK Government, Virgin Atlantic.
 
 At [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org) he worked on their early experiments with IBM Watson, then co-founded a cross-disciplinary machine learning & product development team. 
 
